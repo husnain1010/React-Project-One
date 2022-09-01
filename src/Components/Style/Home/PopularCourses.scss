@@ -30,20 +30,19 @@ $whitecolor: #ffffff;
 }
 
 .container {
-  .cardtop{
+  .cardtop {
     display: none;
   }
-  .view_all{
+  .view_all {
     display: none;
   }
-  .sumb{
+  .sumb {
     justify-content: center;
   }
   .discover {
     font-size: $myFontSize;
     font-weight: $myFontWeight;
     color: #1d1d1d;
-   
   }
   .para {
     @include para;
@@ -68,75 +67,67 @@ $whitecolor: #ffffff;
       height: 56px;
       text-transform: unset;
     }
-  
-    
-    
   }
-  @media  (max-width: 1200px){
-    .sumb{
+  @media (max-width: 1200px) {
+    .sumb {
       display: flex;
       justify-content: center;
     }
-      }
-      @media  (max-width: 900px){
-       
-        .discover{
-          font-size: 30px;
-        }
-        .para{
-          font-size: 15px;
-          padding-top: 0;
-        }
-          }
-      @media  (max-width: 600px){
-        .headings{
-          font-size: 16px;
-        }
-        .price{
-          font-size: 18px;
-        }
-        .discover{
-          font-size: 18px;
-        }
-        .para{
-          font-size: 14px;
-          padding-top: 0;
-        }
-        .sumb{
-          display: flex;
-          flex-direction: column;
-
-        }
-        .setimgsix{
-          width:100%
-
-        }
-        .border{
-          margin-top:-10px;
-          border-top: none;
-          border-top-left-radius: 0px;
-          border-top-right-radius: 0px;
-          padding-bottom: 25px;
-        }
-        .card-set1{
-          display: none;
-        }
-        .view_all{
-          display: block;
-        }
-        .More-Courses-btn{
-          display: none;
-        }
-        .cardtop{
-          display: block;
-        }
-          }
- 
+  }
+  @media (max-width: 900px) {
+    .discover {
+      font-size: 30px;
+    }
+    .para {
+      font-size: 15px;
+      padding-top: 0;
+    }
+  }
+  @media (max-width: 600px) {
+    .headings {
+      font-size: 16px;
+    }
+    .price {
+      font-size: 18px;
+    }
+    .discover {
+      font-size: 18px;
+    }
+    .para {
+      font-size: 14px;
+      padding-top: 0;
+    }
+    .sumb {
+      display: flex;
+      flex-direction: column;
+    }
+    .setimgsix {
+      width: 100%;
+    }
+    .border {
+      margin-top: -10px;
+      border-top: none;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      padding-bottom: 25px;
+    }
+    .card-set1 {
+      display: none;
+    }
+    .view_all {
+      display: block;
+    }
+    .More-Courses-btn {
+      display: none;
+    }
+    .cardtop {
+      display: block;
+    }
+  }
 }
-.border{
-    border: 1px solid #E8E8E8;
-    border-radius: 0px 5px 5px 0px;
-    padding: 0 0 0 20px;
-    height: 97%;
+.border {
+  border: 1px solid #e8e8e8;
+  border-radius: 0px 5px 5px 0px;
+  padding: 0 0 0 20px;
+  height: 97%;
 }
-

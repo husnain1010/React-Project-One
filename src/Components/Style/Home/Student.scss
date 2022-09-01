@@ -1,19 +1,20 @@
-.viewallbtn{
-    display: flex;
-    justify-content: center;
-
+.viewallbtn {
+  display: flex;
+  justify-content: center;
 }
-.viewbgcolor{
-    background-color: 
-    #289BDE;
-    text-transform: unset;
+.viewbgcolor {
+  background-color: #289bde;
+  text-transform: unset;
 }
-.setimg{
-max-width: 100%;
-height: auto;
+.setimg {
+  max-width: 100%;
+  height: auto;
 }
-@media  (max-width: 600px){
-.student_heading,.student_name,.student_d,.student-para{
+@media (max-width: 600px) {
+  .student_heading,
+  .student_name,
+  .student_d,
+  .student-para {
     text-align: center;
-}
+  }
 }

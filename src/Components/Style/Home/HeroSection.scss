@@ -2,40 +2,37 @@
 //     width: calc(1050px + 100px);
 
 // }
-.slider1{
-  .img-fluid{
+.slider1 {
+  .img-fluid {
     max-width: 100%;
     height: auto;
   }
 }
 
-$myColor: #FFFFFF;
+$myColor: #ffffff;
 $myFontSize: 65px;
-$myFontWeight:600;
+$myFontWeight: 600;
 $linehight: 95px;
-$position:absolute;
+$position: absolute;
 $myFontSiz: 20px;
-$thousand: 1000; 
+$thousand: 1000;
 $parafont: 16px;
-$paraweight:400;
-$headingfont:40px;
-$fontsize20:20px;
-
-
+$paraweight: 400;
+$headingfont: 40px;
+$fontsize20: 20px;
 
 .main-img {
   position: relative;
-  .container{
-    max-width: 1320px!important;
+  .container {
+    max-width: 1320px !important;
   }
-  .digital{
+  .digital {
     font-size: $myFontSize;
     font-weight: $myFontWeight;
     line-height: $linehight;
-    color:  $myColor;
+    color: $myColor;
     position: $position;
     z-index: $thousand;
-    
   }
 
   .Get-start {
@@ -44,7 +41,7 @@ $fontsize20:20px;
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  .lg-none{
+  .lg-none {
     display: none;
   }
   .get-start-btn {
@@ -59,234 +56,218 @@ $fontsize20:20px;
     position: $position;
     text-transform: unset;
   }
-.san
-{
-display: none;
-}
- 
-@media  (max-width: 1200px){
-  .lg-none{
-    display: block;
-  }
-  .Get-start {
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  .digital{
-    font-size: 40px;
-    font-weight: $myFontWeight;
-    line-height: 50px;
-    color:  $myColor;
-    position: $position;
-    z-index: $thousand;
-    
-  }
-  .Get-start1 {
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  .digital1{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
-    color:  $myColor;
-    position: $position;
-    z-index: $thousand;
-    
-  }
-  .get-start-btn {
-    top: 71%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: $myColor;
-    font-size: $myFontSiz;
-    font-weight: $myFontWeight;
-    z-index: $thousand;
-    position: $position;
-    text-transform: unset;
-  }
-
-}
- 
-@media  (max-width: 900px){
- 
-  .Get-start {
-    top: 27%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  .digital{
-    font-size: 40px;
-    font-weight: $myFontWeight;
-    line-height: 50px;
-    color:  $myColor;
-    position: $position;
-    z-index: $thousand;
-    
-  }
-  .Get-start1 {
-    top: 52%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  .digital1{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
-    color:  $myColor;
-    position: $position;
-    z-index: $thousand;
-    
-  }
-  .get-start-btn {
-    top: 71%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: $myColor;
-    font-size: $myFontSiz;
-    font-weight: $myFontWeight;
-    z-index: $thousand;
-    position: $position;
-    text-transform: unset;
-  }
-
-}
-@media  (max-width: 767px){
- 
-  .Get-start {
-    top: 25%;
-    left: 50%;
-    transform: translate(-48%, -48%);
-    text-align: center;
-  }
-  .digital{
-    font-size: 25px!important;
-    font-weight: $myFontWeight;
-    line-height: 30px;
-    color:  $myColor;
-    position: $position;
-    z-index: $thousand;
-    
-  }
-  .Get-start1 {
-    top: 52%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  .digital1{
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 25px;
-    color:  $myColor;
-    position: $position;
-    z-index: $thousand;
-    
-  }
-  .get-start-btn {
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: $myColor;
-    font-size: 18px;
-    font-weight: $myFontWeight;
-    z-index: $thousand;
-    position: $position;
-    text-transform: unset;
-  }
-
-}
-@media  (max-width: 600px){
- .sani{
-  display: none;
- }
- .san{
-  display: block;
-  width: 100%;
- }
-  .Get-start {
-    top: 25%;
-    left: 50%;
-    transform: translate(-48%, -48%);
-    text-align: center;
-  }
-  .digital{
-    font-size: 20px!important;
-    font-weight: $myFontWeight;
-    line-height: 30px;
-    color:  $myColor;
-    position: $position;
-    z-index: $thousand;
-    
-  }
-  .Get-start1 {
-    top: 52%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  .digital1{
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 25px;
-    color:  $myColor;
-    position: $position;
-    z-index: $thousand;
-    
-  }
-  .get-start-btn {
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: $myColor;
-    font-size: 16px;
-    font-weight: $myFontWeight;
-    z-index: $thousand;
-    position: $position;
-    text-transform: unset;
-  }
-.slider1{
-  .slick-next{
-    display: none !important;
-}
-.slick-prev{
-  display: none !important;
-}
-}
-
-}
-@media  (max-width: 480px){
-  .sani{
+  .san {
     display: none;
-   }
-   .san{
-    display: block;
-    width: 100%;
-   }
+  }
+
+  @media (max-width: 1200px) {
+    .lg-none {
+      display: block;
+    }
+    .Get-start {
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .digital {
+      font-size: 40px;
+      font-weight: $myFontWeight;
+      line-height: 50px;
+      color: $myColor;
+      position: $position;
+      z-index: $thousand;
+    }
+    .Get-start1 {
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .digital1 {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 25px;
+      color: $myColor;
+      position: $position;
+      z-index: $thousand;
+    }
+    .get-start-btn {
+      top: 71%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: $myColor;
+      font-size: $myFontSiz;
+      font-weight: $myFontWeight;
+      z-index: $thousand;
+      position: $position;
+      text-transform: unset;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .Get-start {
+      top: 27%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .digital {
+      font-size: 40px;
+      font-weight: $myFontWeight;
+      line-height: 50px;
+      color: $myColor;
+      position: $position;
+      z-index: $thousand;
+    }
+    .Get-start1 {
+      top: 52%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .digital1 {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 25px;
+      color: $myColor;
+      position: $position;
+      z-index: $thousand;
+    }
+    .get-start-btn {
+      top: 71%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: $myColor;
+      font-size: $myFontSiz;
+      font-weight: $myFontWeight;
+      z-index: $thousand;
+      position: $position;
+      text-transform: unset;
+    }
+  }
+  @media (max-width: 767px) {
+    .Get-start {
+      top: 25%;
+      left: 50%;
+      transform: translate(-48%, -48%);
+      text-align: center;
+    }
+    .digital {
+      font-size: 25px !important;
+      font-weight: $myFontWeight;
+      line-height: 30px;
+      color: $myColor;
+      position: $position;
+      z-index: $thousand;
+    }
+    .Get-start1 {
+      top: 52%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .digital1 {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 25px;
+      color: $myColor;
+      position: $position;
+      z-index: $thousand;
+    }
+    .get-start-btn {
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: $myColor;
+      font-size: 18px;
+      font-weight: $myFontWeight;
+      z-index: $thousand;
+      position: $position;
+      text-transform: unset;
+    }
+  }
+  @media (max-width: 600px) {
+    .sani {
+      display: none;
+    }
+    .san {
+      display: block;
+      width: 100%;
+    }
+    .Get-start {
+      top: 25%;
+      left: 50%;
+      transform: translate(-48%, -48%);
+      text-align: center;
+    }
+    .digital {
+      font-size: 20px !important;
+      font-weight: $myFontWeight;
+      line-height: 30px;
+      color: $myColor;
+      position: $position;
+      z-index: $thousand;
+    }
+    .Get-start1 {
+      top: 52%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .digital1 {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 25px;
+      color: $myColor;
+      position: $position;
+      z-index: $thousand;
+    }
+    .get-start-btn {
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: $myColor;
+      font-size: 16px;
+      font-weight: $myFontWeight;
+      z-index: $thousand;
+      position: $position;
+      text-transform: unset;
+    }
+    .slider1 {
+      .slick-next {
+        display: none !important;
+      }
+      .slick-prev {
+        display: none !important;
+      }
+    }
+  }
+  @media (max-width: 480px) {
+    .sani {
+      display: none;
+    }
+    .san {
+      display: block;
+      width: 100%;
+    }
     .Get-start {
       top: 20%;
       text-align: center !important;
       transform: translate(-48%, -48%);
       text-align: center;
     }
-    .digital{
-      font-size: 16px!important;
+    .digital {
+      font-size: 16px !important;
       font-weight: $myFontWeight;
       line-height: 25px;
-      color:  $myColor;
+      color: $myColor;
       position: $position;
       z-index: $thousand;
-      
     }
     .Get-start1 {
       top: 45%;
@@ -294,14 +275,13 @@ display: none;
       transform: translate(-50%, -50%);
       text-align: center;
     }
-    .digital1{
+    .digital1 {
       font-size: 10px;
       font-weight: 400;
       line-height: 15px;
-      color:  $myColor;
+      color: $myColor;
       position: $position;
       z-index: $thousand;
-      
     }
     .get-start-btn {
       top: 70%;
@@ -315,31 +295,26 @@ display: none;
       position: $position;
       text-transform: unset;
     }
-  .slider1{
-    .slick-next{
-      display: none !important;
+    .slider1 {
+      .slick-next {
+        display: none !important;
+      }
+      .slick-prev {
+        display: none !important;
+      }
+    }
   }
-  .slick-prev{
-    display: none !important;
-  }
-  }
-
 }
+.slick-next {
+  right: 5%;
 }
-.slick-next{
-    right: 5%;
-}
-.slick-prev{
-    left: 5%;
-    z-index: 1000;
+.slick-prev {
+  left: 5%;
+  z-index: 1000;
 }
 .slick-prev:before {
-    content: url(../../Images/next1.svg);
-
-  }
-  .slick-next:before {
-    content: url(../../Images/previ.svg);
-
-  }
-
- 
+  content: url(../../Images/next1.svg);
+}
+.slick-next:before {
+  content: url(../../Images/previ.svg);
+}

@@ -7,7 +7,6 @@ $colo: #777777;
 $font: 45px;
 $fontw: 600;
 
-
 .container {
   max-width: 1320px !important;
   .boylaptop {
@@ -17,11 +16,11 @@ $fontw: 600;
   .institue {
     background-color: #f4fafd;
     display: flex;
-  
+
     flex-direction: column !important;
-  
+
     justify-content: center;
-  
+
     .institue-heading {
       font-size: $fontsize;
       font-weight: $fontweight;
@@ -34,138 +33,123 @@ $fontw: 600;
       color: $colo;
       line-height: 30px;
     }
-    .online_cours
-    {
+    .online_cours {
       font-size: $font;
       font-weight: $fontw;
-    
     }
-    .read_more{
-      text-transform: unset!important;
+    .read_more {
+      text-transform: unset !important;
     }
-    
   }
-  @media (max-width: 1200px){
+  @media (max-width: 1200px) {
     .institue-heading {
-      padding: 0 20px 0!important;
-      font-weight: 600;     
-font-size: 30px!important;
-max-width: 300px;
-line-height: 50px!important;
+      padding: 0 20px 0 !important;
+      font-weight: 600;
+      font-size: 30px !important;
+      max-width: 300px;
+      line-height: 50px !important;
     }
-    .institue-paragraph{
-      padding-top: 25!important;
+    .institue-paragraph {
+      padding-top: 25 !important;
       padding: 0 20px 35px;
       overflow: hidden;
-text-overflow: ellipsis;
--webkit-line-clamp: 3;
-display: -webkit-box;
--webkit-box-orient: vertical;
-
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 3;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
     }
-    .number{
-      padding: 10px 20px 0!important;
+    .number {
+      padding: 10px 20px 0 !important;
     }
-    .online_cours{
+    .online_cours {
       font-weight: 600;
-font-size: 25px!important;
+      font-size: 25px !important;
     }
-    .number-para{
+    .number-para {
       font-weight: 500;
-font-size: 16px;
+      font-size: 16px;
     }
-
   }
-  @media (max-width: 900px){
+  @media (max-width: 900px) {
     .institue-heading {
-      padding: 0 20px 20px!important;
-      font-weight: 600;     
-font-size: 30px!important;
-line-height: 30px!important;
+      padding: 0 20px 20px !important;
+      font-weight: 600;
+      font-size: 30px !important;
+      line-height: 30px !important;
     }
-    .institue-paragraph{
-      padding-top: 15!important;
+    .institue-paragraph {
+      padding-top: 15 !important;
       padding: 0 20px 0;
       overflow: hidden;
-text-overflow: ellipsis;
--webkit-line-clamp: 2;
-display: -webkit-box;
--webkit-box-orient: vertical;
-font-size: 16px!important;
-
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 2;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      font-size: 16px !important;
     }
-    .number{
-      padding: 20px 20px 0!important;
+    .number {
+      padding: 20px 20px 0 !important;
     }
-    .online_cours{
+    .online_cours {
       font-weight: 600;
-font-size: 25px!important;
+      font-size: 25px !important;
     }
-    .number-para{
+    .number-para {
       font-weight: 500;
-font-size: 16px;
+      font-size: 16px;
     }
-
   }
-  @media (max-width: 767px){
+  @media (max-width: 767px) {
     .institue-heading {
-      padding: 0 20px 20px!important;
-      font-weight: 600;     
-font-size: 25px!important;
-line-height: 30px!important;
+      padding: 0 20px 20px !important;
+      font-weight: 600;
+      font-size: 25px !important;
+      line-height: 30px !important;
     }
-    .institue-paragraph{
-      padding-top: 15!important;
+    .institue-paragraph {
+      padding-top: 15 !important;
       padding: 0 20px 0;
       overflow: hidden;
-text-overflow: ellipsis;
--webkit-line-clamp: 1;
-display: -webkit-box;
--webkit-box-orient: vertical;
-font-size: 16px!important;
-
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 1;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      font-size: 16px !important;
     }
-    .read_more{
+    .read_more {
       font-size: 12px;
     }
-    .online_cours{
+    .online_cours {
       font-weight: 600;
-font-size: 18px!important;
+      font-size: 18px !important;
     }
-
-
   }
-  @media (max-width: 600px){
+  @media (max-width: 600px) {
     .institue-heading {
-      padding: 0 20px 20px!important;
-      font-weight: 600;     
-font-size: 20px!important;
-line-height: 30px!important;
-max-width: 250px;
+      padding: 0 20px 20px !important;
+      font-weight: 600;
+      font-size: 20px !important;
+      line-height: 30px !important;
+      max-width: 250px;
     }
-    .institue-paragraph{
+    .institue-paragraph {
       padding-top: 15;
       padding: 0 20px 0;
       overflow: hidden;
-text-overflow: ellipsis;
--webkit-line-clamp: 4;
-display: -webkit-box;
--webkit-box-orient: vertical;
-font-size: 16px!important;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 4;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      font-size: 16px !important;
+    }
 
-    }
-   
-    .online_cours{
+    .online_cours {
       font-weight: 600;
-font-size: 25px!important;
+      font-size: 25px !important;
     }
-    .institue{
+    .institue {
       padding: 30px 0px 30px;
       margin: -4px 0 0 0;
     }
-    
   }
- 
-  
 }
-

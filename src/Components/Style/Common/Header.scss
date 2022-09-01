@@ -1,49 +1,45 @@
 @font-face {
-    font-family: 'poppins';
-    src: url('../../font/Poppins-Regular.ttf');
+  font-family: "poppins";
+  src: url("../../font/Poppins-Regular.ttf");
 }
-.pop{
-    font-family: 'poppins' !important;
-    text-transform: unset !important;
+.pop {
+  font-family: "poppins" !important;
+  text-transform: unset !important;
 }
-.px-0{
-    padding: 0px !important;
+.px-0 {
+  padding: 0px !important;
 }
 
-.container{
-    max-width: 1320px!important;
-    .nav-color{
-        text-decoration: none;
-font-weight: 400;
-font-size: 18px;
-color: #777777;
-    }
-    .poppp{
-        display: none!important;
-    }
-
+.container {
+  max-width: 1320px !important;
+  .nav-color {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #777777;
+  }
+  .poppp {
+    display: none !important;
+  }
 }
-@media  (max-width: 900px){
-    .poppp{
-        display: none!important;
-    }
-    .parent{
-        display: block;
-    }
+@media (max-width: 900px) {
+  .poppp {
+    display: none !important;
+  }
+  .parent {
+    display: block;
+  }
 }
-@media  (max-width: 600px){
-    .poppp{
-      display: block!important;
-      
-    }
-    .parent{
-        display: none;
-    }
-   
+@media (max-width: 600px) {
+  .poppp {
+    display: block !important;
+  }
+  .parent {
+    display: none;
+  }
 }
-.Navbar{
-    nav{
-        position: static;
-      
-    }
+.Navbar {
+  nav {
+    position: static;
+  }
 }

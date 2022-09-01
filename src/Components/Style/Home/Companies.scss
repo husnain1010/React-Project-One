@@ -1,0 +1,11 @@
+.container{
+    .trusted{
+        text-align: center;
+    }
+    @media  (max-width: 900px){
+        .disply-none-lider{
+           display: none;
+        }
+    }
+}
+

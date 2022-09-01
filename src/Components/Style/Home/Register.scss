@@ -1,0 +1,67 @@
+.container{
+    .backgblue{
+        background: #289BDE;
+        border-radius: 5px;
+    }
+    .ready{
+        font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #FFFFFF;
+    }
+    .reg2{
+        display: none!important;
+    }
+    
+   
+    .regbtnnn{
+        display: flex;
+        justify-content: center;
+        .regbtn{
+            color: #289BDE ;
+            background-color: #FFFFFF;
+            text-transform: unset;
+            
+        }
+        .reg2{
+            display: none;
+        }
+    
+    }
+    @media  (max-width: 1200px){
+       
+        .ready,.ready-para{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .regbtnnn{
+            .regbtn{
+                display: none;
+            }
+            .reg2{
+                display: block!important;
+                color: #289BDE ;
+            background-color: #FFFFFF;
+            text-transform: unset;
+            }
+            
+        }
+       
+       
+    }
+    @media  (max-width: 600px)
+    {
+        .readttojoin{
+            .ready{
+                font-size: 18px;
+            }
+            .ready-para{
+                font-size: 14px;
+                text-align: center;
+                
+            }
+        }
+        
+    }
+}
